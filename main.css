@@ -1,0 +1,30 @@
+		
+			.content{
+				display: grid;
+				width: 80vw;
+				height: 100vh;
+				margin: auto;
+				grid-template-rows: 1fr 1fr 1fr ;
+				grid-template-columns: repeat(2, 350px);
+				/*grid-auto-rows: minmax(50px, 135px);*/
+				grid-gap: 25px;
+				border:  2px solid rgb(247, 182, 96);
+				justify-content: center;
+			}
+			.box{
+				display:  flex;
+				width: auto; /*70%*/
+				align-items: center;
+				justify-content: center;
+				border:  1px solid red;
+				padding: 15px;
+			}
+			#one{
+				
+			}
+			#two{
+				
+			}
+			#three{
+				
+			}
